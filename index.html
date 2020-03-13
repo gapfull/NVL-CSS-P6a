@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica – Box Model</title>
+
+    <style>
+        div {
+          position: fixed;
+          margin: 10px 10px 10px 10px;
+          border: 10px;
+          border-style:solid; color: red;
+          padding: 16px;
+          background-color: orange;
+        }
+        table {
+          border: 1px;
+          border-style:solid; border-color:#000;
+          border-spacing: 10px;
+          border-collapse: separate;
+        }
+        
+        td {
+          width: 25%;
+          text-align: center;
+          vertical-align: center;
+          border: 1px solid rgb(210, 210, 210);
+          border-collapse: collapse;
+          padding: 0.3em;
+        }
+
+        th {
+          background-color: rgb(180, 180, 180);
+        }
+
+        .mineral{
+        font-variant: small-caps;
+        font-size: 25px;
+        font-weight: bolder;
+        }
+        .uno{
+          background-color: rgb(255, 255, 255);
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .dos {
+          background-color: rgb(225, 225, 225);
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .tres {
+          background-color: rgb(195, 195, 195);
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .cuatro {
+          background-color: rgb(165, 165, 165);
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .cinco {
+          background-color: rgb(135, 135, 135);
+          color: white;
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .seis {
+          background-color: rgb(105, 105, 105);
+          color: white;
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .siete {
+          background-color: rgb(75, 75, 75);
+          color: white;
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .ocho {
+          background-color: rgb(50, 50, 50);
+          color: white;
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .nueve {
+          background-color: rgb(25, 25, 25);
+          color: white;
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        .diez {
+          background-color: rgb(0, 0, 0);
+          color: white;
+          font-size: 25px;
+          font-weight: bolder;
+        }
+        </style>
+  
+</head>
+<body>
+
+
+<table>
+  <tr>
+    <th>Dureza</th>
+    <th>Mineral </th>
+    <th>Foto</th>
+    <th>Resistencia</th>
+  </tr>
+  <tr>
+    <td class="uno">1</td>
+    <td class="mineral">Talco</td>
+    <td><img src="talco.jpg" alt="Talco"></td>
+    <td>Se puede rayar fácilmente con la uña</td>
+  </tr>
+  <tr>
+    <td class="dos">2</td>
+    <td class="mineral">Yeso</td>
+    <td><img src="yeso.jpg" alt="Yeso"></td>
+    <td>Se puede rayar con la uña con más dificultad</td>
+  </tr>
+  <tr>
+    <td class="tres">3</td>
+    <td class="mineral">Calcita </td>
+    <td><img src="calcita.jpg" alt="Calcita"></td>
+    <td>Se puede rayar con una moneda de cobre </td>
+  </tr>
+  <tr>
+    <td class="cuatro">4</td>
+    <td class="mineral">Fluorita </td>
+    <td><img src="fluorita.jpg" alt="Fluorita"></td>
+    <td>Se puede rayar con un cuchillo de acero</td>
+  </tr>
+  <tr>
+    <td class="cinco">5</td>
+    <td class="mineral">Apatito</td>
+    <td><img src="apatito.jpg" alt=""></td>
+    <td>Se puede rayar difícilmente con un cuchillo</td>
+  </tr>
+  <tr>
+    <td class="seis">6</td>
+    <td class="mineral">Ortosa</td>
+    <td><img src="ortosa.jpg" alt=""></td>
+    <td>Se puede rayar con una lija para el acero</td>
+  </tr>
+  <tr>
+    <td class="siete">7</td>
+    <td class="mineral">Cuarzo</td>
+    <td><img src="cuarzo.jpg" alt=""></td>
+    <td>Raya el vidrio</td>
+  </tr>
+  <tr>
+    <td class="ocho">8</td>
+    <td class="mineral">Topacio</td>
+    <td><img src="topacio.jpg" alt=""></td>
+    <td>Rayado por herramientas de carburo de wolframio</td>
+  </tr>
+  <tr>
+    <td class="nueve">9</td>
+    <td class="mineral">Corindón</td>
+    <td><img src="corindon.jpg" alt=""></td>
+    <td>Rayado por herramientas de carburo de silicio</td>
+  </tr>
+  <tr>
+    <td class="diez">10</td>
+    <td class="mineral">Diamante</td>
+    <td><img src="diamante.jpg" alt=""></td>
+    <td>El material más duro en esta escala (rayado por otro diamante)</td>
+  </tr>
+</table>
+</body>
+</html>
